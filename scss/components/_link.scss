@@ -1,0 +1,18 @@
+.form {
+  &__link {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: $clr-accent-blue;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1rem 3rem;
+    text-align: center;
+    span {
+      font-weight: $fw-600;
+    }
+    @include for-tablet {
+      text-align: start;
+    }
+  }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="warpper">
+      <main>
+        <section class="hero">
+          <h1 class="hero__title">Learn to code by watching others</h1>
+          <p class="hero__descripe">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </section>
+        <div class="cta">
+          <a href="#" class="form__link"
+            ><span>Try it free 7 days</span> then $20/mo. thereafter</a
+          >
+          <form
+            action="/signup"
+            method="post"
+            class="form"
+            id="signup"
+            novalidate
+          >
+            <div class="form__warpper">
+              <div class="input-warpper">
+                <label for="first-name" class="hidden">First Name</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="First Name"
+                  class="form__first-name"
+                  required
+                  autocomplete="off"
+                />
+                <div class="form__icon-validate"></div>
+                <small class="form__msg-validate"
+                  >First Name cannot be empty</small
+                >
+              </div>
+              <div class="input-warpper">
+                <label for="last-name" class="hidden">Last Name</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  placeholder="Last Name"
+                  class="form__last-name"
+                  required
+                  autocomplete="off"
+                />
+                <div class="form__icon-validate"></div>
+                <small class="form__msg-validate"
+                  >Last Name cannot be empty</small
+                >
+              </div>
+              <div class="input-warpper">
+                <label for="email" class="hidden">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email Address"
+                  class="form__email"
+                  required
+                  autocomplete="off"
+                />
+                <div class="form__icon-validate"></div>
+                <small class="form__msg-validate"
+                  >Looks like this is not an email</small
+                >
+              </div>
+              <div class="input-warpper">
+                <label for="password" class="hidden">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                  class="form__password"
+                  required
+                  autocomplete="off"
+                  minlength="9"
+                />
+                <div class="form__icon-validate"></div>
+                <small class="form__msg-validate"
+                  >Password cannot be empty</small
+                >
+              </div>
+              <div class="input-warpper">
+                <button type="submit" id="submit" class="btn-warpper">
+                  CLAIM YOUR FREE TRIAL
+                </button>
+              </div>
+              <small class="form__disclaimer"
+                >By clicking the button, you are agreeing to our
+                <span> Terms and Services</span>
+              </small>
+            </div>
+          </form>
+        </div>
+        <p class="my-link">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://github.com/AliBearr" target="_blank">Ali Abuhumra</a
+          >.
+        </p>
+      </main>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

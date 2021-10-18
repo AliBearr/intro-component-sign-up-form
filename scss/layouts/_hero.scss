@@ -1,0 +1,9 @@
+.hero {
+  @include for-tablet {
+    align-self: center;
+  }
+
+  &__describe {
+    margin-bottom: 4rem;
+  }
+}

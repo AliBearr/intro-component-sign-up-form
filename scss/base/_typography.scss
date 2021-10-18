@@ -1,0 +1,24 @@
+// Typeography
+h1 {
+  font-size: clamp(1.75rem, 5vw, 3.125rem);
+  font-weight: $fw-700;
+  color: $clr-white;
+  margin-bottom: 1rem;
+  @include for-tablet {
+    line-height: 55px;
+  }
+}
+
+p {
+  font-size: $fs-p;
+  font-weight: $fw-500;
+  color: $clr-white;
+}
+
+h1,
+p {
+  text-align: center;
+  @include for-tablet {
+    text-align: start;
+  }
+}

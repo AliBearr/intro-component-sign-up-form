@@ -1,0 +1,50 @@
+// Inputs's Form
+.input-warpper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 1rem;
+  label {
+    display: none;
+  }
+}
+
+input {
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: $fw-600;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  color: $clr-dark-blue;
+  caret-color: $clr-dark-blue;
+  text-indent: 1.18rem;
+  letter-spacing: 0.25px;
+  outline: none;
+  padding: 1.2rem 0;
+}
+
+.form input:focus:invalid {
+  transition: all 0.5s;
+  border-width: 1.5px;
+  border-color: red;
+}
+
+.form input:focus:valid {
+  transition: all 0.3s;
+  border-width: 1.5px;
+  border-color: $clr-accent-blue;
+}
+
+.form input:focus:invalid + .form__icon-validate::before {
+  transition: all 0.3s;
+  opacity: 1;
+}
+.form input:focus:valid + .form__icon-validate::before {
+  background: url(../../images/checked.svg) no-repeat;
+  opacity: 1;
+}
+
+.form input.success {
+  border-width: 1.7px;
+  border-color: green;
+}

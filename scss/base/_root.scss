@@ -1,0 +1,17 @@
+:root {
+  --fs-body: 1rem;
+  --fs-p: 0.875rem;
+  --fs-h: 2.5rem;
+}
+
+@media (min-width: 50em) {
+  :root {
+    --fs-p: 1rem;
+    --fs-h: 4rem;
+  }
+}
+
+h1,
+p {
+  margin: 0;
+}

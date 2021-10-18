@@ -1,0 +1,13 @@
+//Footer
+
+.my-link {
+  font-weight: 400;
+  padding: 1rem 0;
+  a {
+    &:hover {
+      color: #fff;
+      box-shadow: 2px 4px 9px 3px;
+    }
+  }
+}
+//Footer Buttons
