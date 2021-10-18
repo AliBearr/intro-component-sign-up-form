@@ -1,7 +1,7 @@
 # Frontend Mentor - Intro component with sign up form
 
-![github repo size](https://img.shields.io/github/repo-size/AliBearr/card-component)
-![github contributors](https://img.shields.io/github/contributors/AliBearr/card-component)
+![github repo size](https://img.shields.io/github/repo-size/AliBearr/intro-component-sign-up-form)
+![github contributors](https://img.shields.io/github/contributors/AliBearr/intro-component-sign-up-form)
 ![github twiter](https://img.shields.io/twitter/follow/Alibearrr?style=social)
 
 Card Component helps you to improve exercise CSS
