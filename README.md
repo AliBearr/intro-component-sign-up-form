@@ -3,6 +3,9 @@
 ![github repo size](https://img.shields.io/github/repo-size/AliABUHuMRA/Base-Apparel-coming-soon-page)
 ![github contributors](https://img.shields.io/github/contributors/AliABUHuMRA/Base-Apparel-coming-soon-page)
 ![github twiter](https://img.shields.io/twitter/follow/AliAbuhumra?style=social)
+![github repo size](https://img.shields.io/github/repo-size/AliBearr/intro-component-sign-up-form)
+![github contributors](https://img.shields.io/github/contributors/AliBearr/intro-component-sign-up-form)
+![github twiter](https://img.shields.io/twitter/follow/Alibearrr?style=social)
 
 ## Welcome! 👋
 
