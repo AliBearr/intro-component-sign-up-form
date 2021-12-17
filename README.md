@@ -1,7 +1,7 @@
 # Intro component with sign up form
 
-![github repo size](https://img.shields.io/github/repo-size/AliABUHuMRA/Base-Apparel-coming-soon-page)
-![github contributors](https://img.shields.io/github/contributors/AliABUHuMRA/Base-Apparel-coming-soon-page)
+![github repo size](https://img.shields.io/github/repo-size/AliABUHuMRA/intro-component-sign-up-form)
+![github contributors](https://img.shields.io/github/contributors/AliABUHuMRA/intro-component-sign-up-form)
 ![github twiter](https://img.shields.io/twitter/follow/AliAbuhumra?style=social)
 
 ## Welcome! 👋
